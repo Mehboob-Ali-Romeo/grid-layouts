@@ -428,8 +428,44 @@ h1 {
     background-color: var(--l-green)
 }
 
+/* Layout eight ended  */
 
+/* Layout nine started  */
 
+.layout-9 {
+    font-size: 3em;
+    margin: 100px 50px;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.layout-9 .box1 {
+    grid-column: 1 / 4;
+    background-color: var(--m-orange)
+}
+
+.layout-9 .box2 {
+    grid-row: 2 / 4;
+    background-color: var(--d-green)
+}
+
+.layout-9 .box3 {
+    grid-column: 2 / 4;
+    background-color: var(--l-green)
+}
+
+.layout-9 .box4 {
+    background-color: var(--d-orange)
+}
+
+.layout-9 .box5 {
+    background-color: var(--l-orange)
+}
+
+/* Layout nine ended  */
 
 @media (max-width: 900px) {
     .grids {
