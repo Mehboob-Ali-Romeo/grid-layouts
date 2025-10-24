@@ -378,6 +378,59 @@ h1 {
 /* Layout seven ended  */
 
 
+/* layout eighth started  */
+
+.layout-8 {
+    font-size: 3em;
+    margin: 100px 50px;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.layout-8 .box1 {
+    background-color: var(--d-orange)
+}
+
+.layout-8 .box2 {
+    background-color: var(--l-orange)
+}
+
+.layout-8 .box3 {
+    background-color: var(--l-green)
+}
+
+.layout-8 .box4 {
+    background-color: var(--m-green)
+}
+
+.layout-8 .box5 {
+    background-color: var(--d-green)
+}
+
+.layout-8 .box6 {
+    background-color: var(--l-orange)
+}
+
+.layout-8 .box7 {
+    background-color: var(--d-orange)
+}
+
+.layout-8 .box8 {
+    grid-column: 3 /6;
+    background-color: var(--m-orange)
+}
+
+.layout-8 .box9 {
+    grid-column: 1 / 6;
+    background-color: var(--l-green)
+}
+
+
+
+
 @media (max-width: 900px) {
     .grids {
         grid-template-columns: repeat(2, 1fr);
